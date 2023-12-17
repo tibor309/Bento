@@ -163,15 +163,15 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Discord',
-					link: 'https://www.linkedin.com',
+					link: 'https://discord.com/app',
 				},
 				{
 					name: 'Telegram',
-					link: 'https://www.dribbble.com',
+					link: 'https://web.telegram.org/k/',
 				},
 				{
 					name: 'Steam Chat',
-					link: 'https://www.trello.com',
+					link: 'https://steamcommunity.com/chat/',
 				},
 			],
 		},
