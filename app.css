@@ -9,40 +9,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
 
 :root {
-  /* Light Colors  */
-  /* Catppuccin is a dark-mode color palete. The theme is similar for both modes. */
-
-  --background: #575268; /* Background color */
-  --accent: #c3bac6; /* Hover color */
-  --cards: #988ba2; /* Cards color */
+  /* Font Size */
+  --fg-primary: 12vh; /* Time and Greetings */
+  --fg-secondary: 3vh; /* Greetings and Weather widger */
+  --fg-date: 8vh; /* Date */
+  --fg-list: 2vh; /* Links List */
+  --icon: 3vh; /* Icon Size */
 
   /* Fonts Color */
-  --fg: #d9e0ee; /* Foreground color */
-  --sfg: #f5e0dc; /* Secondary Foreground color */
+  --fg: #4c4f69; /* Foreground color */
+  --sfg: #5c5f77; /* Sceondary Foreground color */
+
+  /* Light Colors  */
+  --accent: #7287fd; /* Hover color */
+  --background: #eff1f5; /* Background color */
+  --cards: #ccd0da; /* Cards color */
 
   /* Image background  */
+  --imgbg: url(assets/background.jpg); /* Image URL */
   --imgcol: linear-gradient(
-    rgba(87, 82, 104, 0.85),
-    rgba(87, 82, 104, 0.85)
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.7)
   ); /* Filter color */
 }
 
 .darktheme {
   /* Dark Colors  */
-
+  --accent: #b4befe; /* Hover color */
   --background: #1e1e2e; /* Background color */
-  --accent: #575268; /* Hover color */
-  --cards: #302d41; /* Cards color */
+  --cards: #313244; /* Cards color */
 
   /* Fonts Color */
-  --fg: #d9e0ee; /* Foreground color */
-  --sfg: #f5e0dc; /* Secondary Foreground color */
+  --fg: #cdd6f4; /* Foreground color */
+  --sfg: #45475a; /* Secondary Foreground color */
 
   /* Image background  */
-  /* Image background  */
   --imgcol: linear-gradient(
-    rgba(30, 30, 46, 0.85),
-    rgba(30, 30, 46, 0.85)
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.85)
   ); /* Filter color */
 }
 
