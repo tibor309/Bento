@@ -53,39 +53,40 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
+			name: 'GitHub',
 			icon: 'github',
 			link: 'https://github.com/',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'Replit',
+			icon: 'terminal',
+			link: 'https://replit.com',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Twitch',
+			icon: 'twitch',
+			link: 'https://twitch.tv/directory/following',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'YouTube',
+			icon: 'youtube',
+			link: 'https://youtube.com/',
+			
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Proton Mail',
+			icon: 'mail',
+			link: 'https://mail.proton.me/u/0/inbox',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'YouTube Music',
+			icon: 'play-circle',
+			link: 'https://music.youtube.com',
 		},
 	],
 
@@ -135,46 +136,42 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'message-square',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Mastodon',
+					link: 'https://furry.engineer/home',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Lemmy',
+					link: 'https://pawb.social/',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Bluesky',
+					link: 'https://bsky.app/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Twitter',
+					link: 'https://twitter.com/home',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'sticker',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
+					name: 'Discord',
 					link: 'https://www.linkedin.com',
 				},
 				{
-					name: 'Dribbble',
+					name: 'Telegram',
 					link: 'https://www.dribbble.com',
 				},
 				{
-					name: 'Trello',
+					name: 'Steam Chat',
 					link: 'https://www.trello.com',
-				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
 				},
 			],
 		},
