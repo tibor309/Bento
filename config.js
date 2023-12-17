@@ -173,6 +173,10 @@ const CONFIG = {
 					name: 'Steam Chat',
 					link: 'https://steamcommunity.com/chat/',
 				},
+				{
+					name: 'Messenger',
+					link: 'https://messenger.com/',
+				},
 			],
 		},
 	],
