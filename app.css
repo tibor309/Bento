@@ -6,7 +6,7 @@
 
 /* V A R I A B L E S */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@300;400;700&display=swap'); /* Font Import */
+@import url('https://fonts.bunny.net/css2?family=Fira+Code:wght@300;400;700&display=swap'); /* Font Import */
 
 :root {
   /* Font Size */
@@ -18,12 +18,15 @@
 
   /* Fonts Color */
   --fg: #4c4f69; /* Foreground color */
-  --sfg: #5c5f77; /* Sceondary Foreground color */
+  --fg-alt: #5c5f77; /* Alt text color (for text below clock and date) */
+  --sfg: #bcc0cc; /* Sceondary Foreground color */
+  --list-text: #6c6f85; /* List text color */
 
   /* Light Colors  */
   --accent: #7287fd; /* Hover color */
   --background: #eff1f5; /* Background color */
   --cards: #ccd0da; /* Cards color */
+  --icon-color: #7287fd; /* Icon color */
 
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
@@ -38,10 +41,13 @@
   --accent: #b4befe; /* Hover color */
   --background: #1e1e2e; /* Background color */
   --cards: #313244; /* Cards color */
+  --icon-color: #b4befe; /* Icon color */
 
   /* Fonts Color */
   --fg: #cdd6f4; /* Foreground color */
+  --fg-alt: #b8c0e0; /* Alt text color (for text below clock and date) */
   --sfg: #45475a; /* Secondary Foreground color */
+  --list-text: #b8c0e0; /* List text color */
 
   /* Image background  */
   --imgcol: linear-gradient(
@@ -56,7 +62,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Fira Code', monospace;
   transition: 0.2s ease-in-out;
 }
 
@@ -176,7 +182,7 @@ body {
 
 #greetings {
   font-size: var(--fg-secondary);
-  color: var(--fg);
+  color: var(--fg-alt);
 }
 
 .weatherIcon img {
@@ -188,13 +194,13 @@ body {
   font-size: var(--fg-secondary);
   font-weight: bolder;
   margin-left: 15px;
-  color: var(--fg);
+  color: var(--fg-alt);
 }
 
 .weatherDescription p {
   font-size: var(--fg-secondary);
   margin-left: 15px;
-  color: var(--fg);
+  color: var(--fg-alt);
 }
 
 .reduceGap {
@@ -244,7 +250,7 @@ body {
 .buttonIcon {
   width: var(--icon);
   height: var(--icon);
-  color: var(--fg);
+  color: var(--icon-color);
 }
 
 .button__1 {
@@ -306,14 +312,14 @@ body {
 .listIcon {
   /* margin-top: 3vh; */
   margin-bottom: 2vh;
-  color: var(--fg);
+  color: var(--icon-color);
   width: var(--icon);
   height: var(--icon);
 }
 .listItem {
   text-decoration: none;
   font-size: var(--fg-list);
-  color: var(--fg);
+  color: var(--list-text);
   margin-top: 1vh;
   padding: 8px 12px;
   border-radius: 5px;

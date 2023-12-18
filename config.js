@@ -32,8 +32,8 @@ const CONFIG = {
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '47.498138',
+	defaultLongitude: '19.040550',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -163,15 +163,19 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Discord',
-					link: 'https://www.linkedin.com',
+					link: 'https://discord.com/app',
 				},
 				{
 					name: 'Telegram',
-					link: 'https://www.dribbble.com',
+					link: 'https://web.telegram.org/k/',
 				},
 				{
 					name: 'Steam Chat',
-					link: 'https://www.trello.com',
+					link: 'https://steamcommunity.com/chat/',
+				},
+				{
+					name: 'Messenger',
+					link: 'https://messenger.com/',
 				},
 			],
 		},
