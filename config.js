@@ -85,7 +85,7 @@ const CONFIG = {
 		{
 			id: '6',
 			name: 'YouTube Music',
-			icon: 'play-circle',
+			icon: 'headphones',
 			link: 'https://music.youtube.com',
 		},
 	],
