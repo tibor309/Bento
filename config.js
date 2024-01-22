@@ -167,7 +167,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Telegram',
-					link: 'https://web.telegram.org/k/',
+					link: 'https://web.telegram.org/a/',
 				},
 				{
 					name: 'Steam Chat',
