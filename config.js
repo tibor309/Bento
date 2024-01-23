@@ -66,7 +66,7 @@ const CONFIG = {
 		{
 			id: '3',
 			name: 'Twitch',
-			icon: 'twitch',
+			icon: 'tv',
 			link: 'https://twitch.tv/directory/following',
 		},
 		{
