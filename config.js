@@ -66,7 +66,7 @@ const CONFIG = {
 		{
 			id: '3',
 			name: 'Twitch',
-			icon: 'twitch',
+			icon: 'tv',
 			link: 'https://twitch.tv/directory/following',
 		},
 		{
@@ -85,7 +85,7 @@ const CONFIG = {
 		{
 			id: '6',
 			name: 'YouTube Music',
-			icon: 'play-circle',
+			icon: 'headphones',
 			link: 'https://music.youtube.com',
 		},
 	],
@@ -167,7 +167,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Telegram',
-					link: 'https://web.telegram.org/k/',
+					link: 'https://web.telegram.org/a/',
 				},
 				{
 					name: 'Steam Chat',
