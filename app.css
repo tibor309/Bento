@@ -19,14 +19,14 @@
   /* Fonts Color */
   --fg: #4c4f69; /* Foreground color */
   --fg-alt: #5c5f77; /* Alt text color (for text below clock and date) */
-  --sfg: #bcc0cc; /* Sceondary Foreground color */
+  --sfg: #7287fd; /* Sceondary Foreground color */
   --list-text: #6c6f85; /* List text color */
 
   /* Light Colors  */
-  --accent: #7287fd; /* Hover color */
+  --accent: #ccd0da; /* Hover color */
   --background: #eff1f5; /* Background color */
-  --cards: #ccd0da; /* Cards color */
-  --icon-color: #7287fd; /* Icon color */
+  --cards: #e6e9ef; /* Cards color */
+  --icon-color: #4c4f69; /* Icon color */
 
   /* Image background  */
   --imgbg: url(assets/background.jpg); /* Image URL */
@@ -40,14 +40,14 @@
   /* Dark Colors  */
   --accent: #b4befe; /* Hover color */
   --background: #1e1e2e; /* Background color */
-  --cards: #313244; /* Cards color */
-  --icon-color: #b4befe; /* Icon color */
+  --cards: #313244; /* Cards color  */
+  --icon-color: #cdd6f4; /* Icon color*/
 
   /* Fonts Color */
   --fg: #cdd6f4; /* Foreground color */
   --fg-alt: #b8c0e0; /* Alt text color (for text below clock and date) */
   --sfg: #45475a; /* Secondary Foreground color */
-  --list-text: #b8c0e0; /* List text color */
+  --list-text: #a6adc8; /* List text color* /
 
   /* Image background  */
   --imgcol: linear-gradient(
