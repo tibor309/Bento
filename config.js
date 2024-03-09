@@ -59,9 +59,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Replit',
-			icon: 'terminal',
-			link: 'https://replit.com',
+			name: 'VSCode',
+			icon: 'code-2',
+			link: 'https://vscode.dev',
 		},
 		{
 			id: '3',
