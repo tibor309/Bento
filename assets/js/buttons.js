@@ -12,7 +12,7 @@ const generateFirstButtonsContainer = () => {
           class="card button button__${button.id}"
 		  aria-label="${button.name}"
         >
-          <i class="buttonIcon" icon-name="${button.icon}"></i>
+          <i class="buttonIcon" data-lucide="${button.icon}"></i>
         </a>
     `;
 
@@ -31,7 +31,7 @@ const generateSecondButtonsContainer = () => {
           class="card button button__${button.id}"
 		  aria-label="${button.name}"
         >
-          <i class="buttonIcon" icon-name="${button.icon}"></i>
+          <i class="buttonIcon" data-lucide="${button.icon}"></i>
         </a>
     `;
 
